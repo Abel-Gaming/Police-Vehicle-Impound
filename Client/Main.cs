@@ -21,7 +21,7 @@ namespace client
         {
             Tick += OnTick; //Run tick method
             MenuController.MenuAlignment = MenuController.MenuAlignmentOption.Right; //Align Menu
-            MenuController.MenuToggleKey = Control.VehicleSelectPrevWeapon;
+            MenuController.MenuToggleKey = Control.VehicleSelectPrevWeapon; //Sets menu key
 
             //Create Menus
             mainMenu = new Menu("Impound Menu", "Mod by Abel Gaming");
